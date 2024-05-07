@@ -1,0 +1,12 @@
+[package]
+name = "rustfetch"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+sysinfo = "0.24.0"
+uname = "0.1.1"
+
+[[bin]]
+name = "rustfetch"
+path = "main.rs"
